@@ -1,0 +1,52 @@
+body,html{
+    font-family: Verdana;
+}
+
+a{
+    display: inline-block;
+    margin-left:30px;
+    background-color:rgb(45, 59, 186);
+    padding:5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    background-color:rgb(94, 107, 226);
+}
+
+input[type=submit]{
+    font-family: Verdana;
+    font-weight: bold;
+    padding:6px;
+    margin-bottom:4px;
+    margin-left:30px;
+    color:white;
+    background-color: rgb(54, 54, 197);
+    border-radius: 8px;
+}
+
+input[type=text], input[type=number]{
+    display: block;
+}
+
+input[name=firma], input[name=desc]{
+    width:600px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+table th{
+    background-color: rgb(54, 54, 197);
+    padding:5px;
+    color:white;
+    text-align:center;
+}
+
+table td{
+    padding:5px;
+}
